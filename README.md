@@ -88,13 +88,25 @@ Optional:
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | userId        | String   | unique id for the user (default field) |
-   | firstName     | Pointer to User| image author |
-   | image         | File     | image that user posts |
-   | caption       | String   | image caption by author |
-   | commentsCount | Number   | number of comments that has been posted to an image |
-   | likesCount    | Number   | number of likes for the post |
-   | createdAt     | DateTime | date when post is created (default field) |
-   | updatedAt     | DateTime | date when post is last updated (default field) |
+   | userName      | String   | username to login |
+   | password      | String   | password to login |
+   | email         | String   | email for user |
+   
+#### Movie
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | movieId       | String   | unique id for the movie (default field) |
+   | movieName     | String   | name of movie |
+   | Genre         | String   | genre of movie |
+   | director      | String   | director of move |
+   | budget        | Number   | budget of move |
+   | boxOffice     | Number   | box office sales |
+   | streamingService      | String   | director of move |
+   | director      | String   | director of move |
+   | director      | String   | director of move |
+   
+
 ### Networking
 #### List of network requests by screen
    - Home Feed Screen
