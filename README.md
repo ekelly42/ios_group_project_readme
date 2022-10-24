@@ -90,7 +90,6 @@ Optional:
    | userId        | String   | unique id for the user (default field) |
    | userName      | String   | username to login |
    | password      | String   | password to login |
-   | email         | String   | email for user |
    
 #### VehicleEmission
 
