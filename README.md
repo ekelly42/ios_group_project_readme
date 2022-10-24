@@ -101,7 +101,7 @@ Optional:
    | userId      | String   | unique id of the user who owns the vehicle |
    | Make      | String   | make of the vehicle |
    | Model   | String |  model of the vehicle | 
-   | Year    | Number | Year the vehicle was made | 
+   | Year    | Number | year the vehicle was made | 
 
 #### Goal
 
@@ -121,7 +121,7 @@ Optional:
    | vehicleId         | String   | id of the vehicle |
    | distance      | Number   | distance traveled  |
    | emission        | Number   | emissions resulting from travel |
-   | Date | DateTime | Date of the vehicle emission | 
+   | Date | DateTime | date of the vehicle emission | 
    
 
 ### Networking
