@@ -92,7 +92,17 @@ Optional:
    | password      | String   | password to login |
    | First         | String   | User first name | 
    | Last          | String   | User last name | 
-   
+
+#### Vehicle
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | vehicleId        | String   | unique id for the vehicle (default field) |
+   | userId      | String   | unique id of the user who owns the vehicle |
+   | Make      | String   | make of the vehicle |
+   | Model   | String |  model of the vehicle | 
+   | Year    | Number | Year the vehicle was made | 
+
 #### Goal
 
    | Property      | Type     | Description |
