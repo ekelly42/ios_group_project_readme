@@ -90,38 +90,38 @@ Optional:
    | userId        | String   | unique id of the user (default field) |
    | userName      | String   | username to login |
    | password      | String   | password to login |
-   | First         | String   | User first name | 
-   | Last          | String   | User last name | 
+   | first         | String   | User first name | 
+   | last          | String   | User last name | 
 
 #### Vehicle
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | vehicleId        | String   | unique id for the vehicle (default field) |
-   | userId      | String   | unique id of the user who owns the vehicle |
-   | Make      | String   | make of the vehicle |
-   | Model   | String |  model of the vehicle | 
-   | Year    | Number | year the vehicle was made | 
+   | vehicleId     | String   | unique id for the vehicle (default field) |
+   | userId        | String   | unique id of the user who owns the vehicle |
+   | make          | String   | make of the vehicle |
+   | model         | String   |  model of the vehicle | 
+   | year          | Number   | year the vehicle was made | 
 
 #### Goal
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | goalId        | String   | unique id for the goal (default field) |
-   | userId      | String   | unique id of the user |
-   | month      | String   | month that the goal applies to |
-   | emissionGoal   | Number |  emission goal set by the user  | 
+   | userId        | String   | unique id of the user |
+   | month         | String   | month that the goal applies to |
+   | emissionGoal  | Number   |  emission goal set by the user  | 
    
 #### VehicleEmission
 
-   | Property      | Type     | Description |
-   | ------------- | -------- | ------------|
-   | vehicleEmissionsId       | String   | unique id for the vehicle emission (default field) |
-   | userId     | String   | unique id of the user |
-   | vehicleId         | String   | id of the vehicle |
-   | distance      | Number   | distance traveled  |
-   | emission        | Number   | emissions resulting from travel |
-   | Date | DateTime | date of the vehicle emission | 
+   | Property           | Type     | Description |
+   | ------------------ | -------- | ------------|
+   | vehicleEmissionsId | String   | unique id for the vehicle emission (default field) |
+   | userId             | String   | unique id of the user |
+   | vehicleId          | String   | id of the vehicle |
+   | distance           | Number   | distance traveled  |
+   | emission           | Number   | emissions resulting from travel |
+   | date               | DateTime | date of the vehicle emission | 
    
 
 ### Networking
