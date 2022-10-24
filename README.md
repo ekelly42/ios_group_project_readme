@@ -92,19 +92,15 @@ Optional:
    | password      | String   | password to login |
    | email         | String   | email for user |
    
-#### Movie
+#### VehicleEmission
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | movieId       | String   | unique id for the movie (default field) |
-   | movieName     | String   | name of movie |
-   | Genre         | String   | genre of movie |
-   | director      | String   | director of move |
-   | budget        | Number   | budget of move |
-   | boxOffice     | Number   | box office sales |
-   | streamingService      | String   | director of move |
-   | director      | String   | director of move |
-   | director      | String   | director of move |
+   | vehicleEmissionsId       | String   | unique id for the vehicle emission (default field) |
+   | userId     | String   | unique id for the user |
+   | vehicleId         | String   | id of the vehicle |
+   | distance      | Number   | distance traveled  |
+   | emission        | Number   | emissions resulting from travel |
    
 
 ### Networking
