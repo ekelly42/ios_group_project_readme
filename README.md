@@ -87,16 +87,27 @@ Optional:
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | userId        | String   | unique id for the user (default field) |
+   | userId        | String   | unique id of the user (default field) |
    | userName      | String   | username to login |
    | password      | String   | password to login |
+   | First         | String   | User first name | 
+   | Last          | String   | User last name | 
+   
+#### Goal
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | goalId        | String   | unique id for the goal (default field) |
+   | userId      | String   | unique id of the user |
+   | month      | String   | month that the goal applies to |
+   | emissionGoal   | Number |  emission goal set by the user  | 
    
 #### VehicleEmission
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | vehicleEmissionsId       | String   | unique id for the vehicle emission (default field) |
-   | userId     | String   | unique id for the user |
+   | userId     | String   | unique id of the user |
    | vehicleId         | String   | id of the vehicle |
    | distance      | Number   | distance traveled  |
    | emission        | Number   | emissions resulting from travel |
