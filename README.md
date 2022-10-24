@@ -116,7 +116,7 @@ Optional:
 
    | Property           | Type     | Description |
    | ------------------ | -------- | ------------|
-   | vehicleEmissionsId | String   | unique id for the vehicle emission (default field) |
+   | vehicleEmissionId | String   | unique id for the vehicle emission (default field) |
    | userId             | String   | unique id of the user |
    | vehicleId          | String   | id of the vehicle |
    | distance           | Number   | distance traveled  |
