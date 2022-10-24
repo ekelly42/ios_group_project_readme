@@ -121,6 +121,7 @@ Optional:
    | vehicleId         | String   | id of the vehicle |
    | distance      | Number   | distance traveled  |
    | emission        | Number   | emissions resulting from travel |
+   | Date | DateTime | Date of the vehicle emission | 
    
 
 ### Networking
